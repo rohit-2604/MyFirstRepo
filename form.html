@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+</head>
+<body>
+  <h1>User Registration</h1>
+  <form name="reg_form"></form>
+  <table cellpadding  = "7" cell>
+    <tr>
+      <td>Name</td>
+      <td><input type="text" name="fname" required placeholder="Enter Your Name"></td>
+
+    </tr>
+
+    <tr>
+      <td>Email_id</td>
+      <td><input type="email" name="email_id"required placeholder="Enter mail"></td>
+    </tr>
+    
+    <tr>
+      <td>Password</td>
+      <td><input type="password" name="password" required ></td>
+    </tr>
+
+    <tr>
+      <td>Date of Birth</td>
+      <td><input type="date" name="date-of-birth" required></td>
+    </tr>
+
+    <tr>
+      <td>Gender</td>
+      <td><input type="radio" name="gender" required>Male</td>
+      <td><input type="radio" name="gender" required>Female</td>
+    </tr>
+
+    <tr>
+      <td>Language</td>
+      <td><input type="checkbox" name="lang" required>C</td>
+      <td><input type="checkbox" name="lang">C++</td>
+      <td><input type="checkbox" name="lang" >Java</td>
+      <td><input type="checkbox" name="lang">PHP</td>
+    </tr>
+
+    <tr>
+      <td>City</td>
+      <td>
+        <select name="City" id="">
+          <option value="Kolkata">Kolkata</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td>
+        <textarea name="Address" id="" cols="30" rows="10"></textarea>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Select File</td>
+      <td>
+        <input type="file" name="ff">
+      </td>
+    </tr>
+
+    <tr>
+      <td><input type="reset" name="rs">&nbsp;</td>
+      <td><input type="submit" name="ok" value="submit"></td>
+    </tr>
+  </table>
+   
+   
+</body>
+</html>
